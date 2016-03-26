@@ -35,3 +35,6 @@ gem 'puma'
 # Slim templating
 gem 'slim-rails'
 gem 'html2slim'
+
+# Bootstrap SASS for beauty
+gem 'bootstrap-sass'
