@@ -31,3 +31,7 @@ gem 'rails_12factor', group: :production
 # Add Foreman and Puma
 gem 'foreman'
 gem 'puma'
+
+# Slim templating
+gem 'slim-rails'
+gem 'html2slim'
