@@ -10,5 +10,17 @@ html lang="en"
   body
     .container
       = render "shared/navbar"
+      - if notice
+        p.alert.alert-info
+          button.close[aria-label="Close" data-dismiss="alert" type="button"]
+            span[aria-hidden="true"]
+              | ×
+          = notice
+      - if alert
+        p.alert.alert-danger
+          button.close[aria-label="Close" data-dismiss="alert" type="button"]
+            span[aria-hidden="true"]
+              | ×
+          = alert
       = yield
       = render "shared/footer"
