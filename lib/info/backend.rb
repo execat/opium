@@ -2,7 +2,7 @@ require_relative '../info.rb'
 
 module Info::Backend
   def backend_visible
-    %w[sinatra rails meteor django]
+    %w[sinatra rails meteor django].map(&:to_sym)
   end
 
   def backend

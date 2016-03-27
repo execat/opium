@@ -2,7 +2,7 @@ require_relative '../info.rb'
 
 module Info::Frontend
   def frontend_visible
-    %w[react angular backbone ember]
+    %w[react angular backbone ember].map(&:to_sym)
   end
 
   def frontend

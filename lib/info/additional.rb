@@ -2,7 +2,7 @@ require_relative '../info.rb'
 
 module Info::Additional
   def additional_visible
-    %w[rspec heroku ec2 arangodb firebase dynamodb youtube]
+    %w[rspec heroku ec2 arangodb firebase dynamodb youtube].map(&:to_sym)
   end
 
   def additional
