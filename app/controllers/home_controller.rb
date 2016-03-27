@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-    binding.pry
     @backend = backend.select { |key, value| key.in?(backend_visible) }
     @frontend = frontend.select { |key, value| key.in?(frontend_visible) }
     @additional = additional.select  { |key, value| key.in?(additional_visible) }
