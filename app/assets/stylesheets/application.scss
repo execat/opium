@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "jquery.slotmachine.css";
 
 body {
     padding-top: 20px;
@@ -125,4 +126,121 @@ body {
 }
 .btn-group-casino .btn:hover, .btn-group-casino .btn:focus {
     background-color: rgb(180, 75, 119);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slotMachine .slot{
+    height:100px;
+    background-position-x: 55%;
+    background-repeat: no-repeat;
+}
+
+// Frontend
+
+.f-angular {
+  background-image: image_url("f-angular.png");
+  background-size: 100px;
+}
+
+.f-ember {
+  background-image: image_url("f-ember.png");
+  background-size: 100px;
+}
+
+.f-react {
+  background-image: image_url("f-react.png");
+  background-size: 100px;
+}
+
+.f-backbone{
+  background-image: image_url("f-backbone.png");
+  background-size: 100px;
+}
+
+// Backend
+.fw-django {
+  background-image: image_url("fw-django.png");
+  background-size: 100px;
+}
+
+.fw-rails {
+  background-image: image_url("fw-rails.png");
+  background-size: 100px;
+}
+
+.fw-sinatra {
+  background-image: image_url("fw-sinatra.png");
+  background-size: 100px;
+}
+
+.fw-meteor {
+  background-image: image_url("fw-meteor.png");
+  background-size: 100px;
+}
+
+// Additional
+.other-arangodb {
+  background-image: image_url("other-arangodb.png");
+  background-size: 100px;
+}
+
+.other-dynamodb {
+  background-image: image_url("other-dynamodb.png");
+  background-size: 100px;
+}
+
+.other-ec2 {
+  background-image: image_url("other-ec2.png");
+  background-size: 100px;
+}
+
+.other-firebase {
+  background-image: image_url("other-firebase.png");
+  background-size: 100px;
+}
+
+.other-heroku {
+  background-image: image_url("other-heroku.png");
+  background-size: 100px;
+}
+
+.other-rspec {
+  background-image: image_url("other-rspec.png");
+  background-size: 100px;
+}
+
+.other-youtube {
+  background-image: image_url("other-youtube.png");
+  background-size: 100px;
 }
